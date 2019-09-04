@@ -4,3 +4,20 @@ Takes the document performs operationa and the return the documents
 
 Result of one stage passed to another.
 ___________________________________
+
+{$match :{age:{$gt:20}}}
+
+{$group:{_id :"$age"}}
+
+{$sort:{count:-1}}
+
+____________________________
+
+$match
+$group
+$sort
+$skip
+$project
+$count
+$limit
+$out
