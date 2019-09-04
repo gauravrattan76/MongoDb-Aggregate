@@ -1,0 +1,18 @@
+db.person.aggregate([
+{$group:{_id:"$age"}}
+])
+
+_______________________________
+
+db.person.aggregate([
+{$group:{_id:"$gender"}}
+])
+
+
+The expression needs to be kept in string""
+
+_________________________________
+
+db.person.aggregate([
+{$group:{_id:"$age"}}
+])
